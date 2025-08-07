@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./assets/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./assets/fonts/PlayfairDisplay-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./assets/fonts/PlayfairDisplay-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./assets/fonts/PlayfairDisplay-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Playfair Display";
+  src: url("./assets/fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: url("./assets/fonts/Montserrat-Thin.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Montserrat-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/Montserrat-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Montserrat-ExtraBold.woff2");
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  color: #353334;
+  background-color: #FCF8ED;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+body{
+  margin: 0 auto;
+}
+div {
+  position: relative;
+}
+section {
+  position: relative;
+  padding: 50px 0;
+  overflow: hidden;
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+p, li, a{
+  white-space: pre-line;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Playfair Display";
+  color: #888164;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+button{
+  font-family: "Montserrat";
+  font-weight: 500;
+  transition: 0.3s;
+  background-color: #515076;
+  padding: 30px 56px;
+  column-rule: #FFFFFF;
+}
