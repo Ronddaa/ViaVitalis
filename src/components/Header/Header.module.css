@@ -1,0 +1,112 @@
+.header{
+    background-color: #353334;
+}
+.header :global(.container){
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    fill: #888164;
+    max-width: 75px;
+    max-height: 75px;
+    transition: 0.3s;
+}
+.logo:hover, .logo:focus{
+    fill: #FCF8ED;
+}
+.wrapperSocialLinkHeader{
+    margin-left: auto;
+}
+.wrapperSocialLinkHeader li a{
+    background-color: #FCF8ED;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    display: block;
+}
+.sociallinkSVG{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    fill: #353334;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+.burgerBtn{
+    background-color: #FCF8ED;
+    border: none;
+    max-width: 40px;
+    max-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+}
+.burgerBtn:hover, .burgerBtn:focus{
+    background-color: #888164;
+    fill: #FCF8ED;
+}
+
+@media (min-width:768px){
+    .logo{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .wrapperNavigationList{
+        display: flex;
+        gap: 50px;
+        margin-right: auto;
+    }
+    .headerNavLink{
+        color: #FCF8ED;
+        font-size: 1.2vw;
+        transition: 0.3s;
+    }
+    .headerNavLink:hover, .headerNavLink:focus{
+        color: #888164;
+    }
+    .wrapperSocialLinkHeader{
+        margin: 0;
+        display: flex;
+        gap: 10px;
+    }
+    .wrapperSocialLinkHeader li:last-child a{
+        width: 100%;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        color: #353334;
+        transition: 0.3s;
+    }
+    .wrapperSocialLinkHeader li a:hover .sociallinkSVG, .wrapperSocialLinkHeader li a:focus .sociallinkSVG{
+        fill: #888164;
+    }
+    .wrapperSocialLinkHeader li:last-child a:hover, .wrapperSocialLinkHeader li:last-child a:focus{
+        background-color: #888164;
+        color: #FCF8ED;
+    }
+    .languageSelector{
+        background-color: transparent;
+        border: none;
+        color: #FCF8ED;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .languageSelector:hover, .languageSelector:focus{
+        color: #888164;
+    }
+    .languageSelector option{
+        background-color: #353334;
+        border: none;
+    }
+    .burgerBtn{
+        display: none;
+    }
+}
