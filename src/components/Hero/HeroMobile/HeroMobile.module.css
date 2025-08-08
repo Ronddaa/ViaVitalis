@@ -1,0 +1,53 @@
+.mainTitle{
+    font-size: 20vw;
+    text-align: center;
+    font-weight: 500;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.mainText{
+    margin-bottom: 20px;
+}
+.mainTextscnd{
+    color: #888164;
+    margin-bottom: 20px;
+}
+.heroBtn{
+    margin-bottom: 30px;
+}
+.wrapperIMGhero{
+    position: relative;
+    margin-bottom: 280px;
+}
+.mainLavandaIMG{
+    height: 460px;
+    object-fit: cover;
+}
+.wrapperCircleHeroText{
+    position: absolute;
+    content: '';
+    bottom: -40%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #FCF8ED;
+    width: 291px;
+    height: 291px;
+    border-radius: 50%;
+    border: 1px solid #888164;
+}
+.mainTextInCircle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    font-size: 3.6vw;
+}
+.maintextLowWidth{
+    max-width: 281px;
+}
+.heroLavandaIMG{
+    position: relative;
+    left: 17%;
+    margin-bottom: 25px;
+}

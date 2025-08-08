@@ -128,6 +128,8 @@ button{
   padding: 20px 32px;
   color: #FFFFFF;
   cursor: pointer;
+  border: none;
+  border-radius: 50px;
 }
 .container{
   padding: 0 20px;
