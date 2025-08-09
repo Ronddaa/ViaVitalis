@@ -86,6 +86,7 @@
     display: flex;
     align-items: center;
     gap: 100px;
+    justify-content: center;
 }
 .wrapperHeroLavandaGSAP li p{
     max-width: 382px;
