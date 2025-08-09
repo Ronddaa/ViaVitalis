@@ -122,7 +122,6 @@ h1, h2, h3, h4, h5, h6{
   font-family: "Playfair Display";
   color: #888164;
   font-weight: 600;
-  text-transform: uppercase;
   white-space: pre-line;
 }
 button{
