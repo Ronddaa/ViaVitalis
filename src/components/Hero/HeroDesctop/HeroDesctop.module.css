@@ -1,0 +1,101 @@
+.HeroDesctop{
+    padding-top: 50px;
+}
+.mainTitle{
+    font-size: 12.2vw;
+    text-transform: none;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.mainText{
+    max-width: 840px;
+    font-size: 1.85vw;
+    margin-bottom: 25px;
+}
+.mainTextscnd{
+    max-width: 840px;
+    font-size: 1.85vw;
+    margin-bottom: 25px;
+    color: #888164;
+}
+.heroBtn{
+    margin-bottom: 70px;
+}
+.heroJustCircke{
+    width: 774px;
+    height: 774px;
+    border-radius: 50%;
+    border: 1px solid #888164;
+    position: absolute;
+    content: '';
+    top: 30%;
+    left: 65%;
+}
+.wrapperHeroIMG{
+    height: 110dvh;
+    margin-bottom: 200px;
+}
+.heroMainIMG{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.wrapperTextOnIMG{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+    transform: translate(-20%, -50%);
+}
+.whiteCircle{
+    background-color: #FCF8ED;
+    width: 485px;
+    height: 485px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -100px;
+}
+.mainTextInCircle{
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    width: 365px;
+}
+.transperentCircle{
+    background-color: transparent;
+    border: 1px solid #888164;
+    width: 485px;
+    height: 485px;
+    border-radius: 50%;
+    margin-top: -100px;
+    position: relative;
+    z-index: 2;
+}
+.wrapperHeroLavandaGSAP{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.wrapperHeroLavandaGSAP li p{
+    max-width: 382px;
+    font-size: 1vw;
+}
+.scndLi{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+}
+.heroLavandaIMG{
+    margin-right: -200px;
+}

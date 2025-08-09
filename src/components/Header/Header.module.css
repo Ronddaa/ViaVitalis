@@ -53,6 +53,9 @@
 }
 
 @media (min-width:768px){
+    .header :global(.container){
+        padding: 0 85px;
+    }
     .logo{
         max-width: 100%;
         max-height: 100%;

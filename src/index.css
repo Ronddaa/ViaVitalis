@@ -96,6 +96,11 @@ section {
   padding: 50px 0;
   overflow: hidden;
 }
+@media(min-width: 768px){
+  section{
+    padding: 100px 0;
+  }
+}
 ul,
 ol {
   list-style: none;
@@ -131,8 +136,18 @@ button{
   border: none;
   border-radius: 50px;
 }
+@media (min-width:768px){
+  button{
+    font-size: 22px;
+  }
+}
 .container{
   padding: 0 20px;
+}
+@media (min-width:768px){
+  .container{
+    padding: 0 100px;
+  }
 }
 .hideElementForMobile{
   display: none;

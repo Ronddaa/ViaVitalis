@@ -1,9 +1,9 @@
 {
-    "header": {
-      "navigation1": "Товары",
-      "navigation2": "О нас",
-      "navigation3": "Подарочные наборы",
-      "navigation4": "Полезное",
-      "navigation5": "Контакты"
-    }
+  "header": {
+    "navigation1": "Товари",
+    "navigation2": "Про нас",
+    "navigation3": "Подарункові набори",
+    "navigation4": "Корисне",
+    "navigation5": "Контакти"
+  }
 }
