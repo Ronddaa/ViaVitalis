@@ -34,6 +34,7 @@
 .wrapperHeroIMG{
     height: 110dvh;
     margin-bottom: 200px;
+    overflow: hidden;
 }
 .heroMainIMG{
     position: absolute;
