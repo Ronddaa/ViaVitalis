@@ -9,9 +9,11 @@ export default function App() {
   const isDesktop = useIsDesktop();
 
 
-  return <>
+  return (
+    <>
     <Header />
     {isDesktop ? <HeroDesctop /> : <HeroMobile />}
     <SwiperSection />
-  </>;
+  </>
+  )
 }
