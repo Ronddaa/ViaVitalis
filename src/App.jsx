@@ -9,6 +9,7 @@ import HeroMobile from "./components/Hero/HeroMobile/HeroMobile";
 import SwiperSection from "./components/SwiperSection/SwiperSection";
 import useIsDesktop from "./hooks/useIsDesctop";
 import AboutMobile from "./components/About/Mobile/AboutMobile";
+import AboutDesctop from "./components/About/Desctop/AboutDesctop";
 
 // Регистрируем плагины GSAP
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
@@ -36,7 +37,7 @@ export default function App() {
         <Header />
         {isDesktop ? <HeroDesctop /> : <HeroMobile />}
         <SwiperSection />
-        {isDesktop ? <AboutMobile /> : <AboutMobile />}
+        {isDesktop ? <AboutDesctop /> : <AboutMobile />}
       </div>
     </div>
   );
