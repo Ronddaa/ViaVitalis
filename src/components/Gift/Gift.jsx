@@ -1,0 +1,23 @@
+import styles from './Gift.module.css'
+import { useTranslation } from 'react-i18next'
+import giftIMG from './gift.webp'
+export default function GiftSection() {
+    const {t} = useTranslation()
+    return (
+      <section className={styles.GiftSection}>
+        <div className="container">
+          <h2 className={styles.titlegift}>{t("gift.title")}</h2>
+          <img src={giftIMG} alt="giftBox" className={styles.giftIMG} />
+          <ul className={styles.wrapperGiftList}>
+                    <li>{ t("gift.li1")}</li>
+            <li>{ t("gift.li2")}</li>
+            <li>{ t("gift.li3")}</li>
+            <li>{ t("gift.li4")}</li>
+            <li>{ t("gift.li5")}</li>
+            <li>{ t("gift.li6")}</li>
+                </ul>
+                <button className={styles.giftBtn}>{t("gift.btn")}</button>
+        </div>
+      </section>
+    );
+}

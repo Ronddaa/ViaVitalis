@@ -1,0 +1,45 @@
+.titlegift{
+    font-size: 54px;
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 60px;
+}
+.giftIMG{
+    border-radius: 15px;
+    margin: 0 auto 15px;
+}
+.wrapperGiftList{
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.wrapperGiftList li{
+    font-size: 16px;
+}
+.giftBtn{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .titlegift{
+        font-size: 5.5vw;
+        margin-bottom: 70px;
+    }
+    .giftIMG{
+        max-width: 642px;
+        max-height: 548px;
+    }
+    .wrapperGiftList{
+        display: block;
+        margin: 0 auto 30px;
+        max-width: 500px;
+    }
+    .wrapperGiftList li{
+        font-size: 1.35vw;
+    }
+    .giftBtn{
+        max-width: 642px;
+    }
+}
