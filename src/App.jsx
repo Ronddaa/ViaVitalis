@@ -11,6 +11,7 @@ import useIsDesktop from "./hooks/useIsDesctop";
 import AboutMobile from "./components/About/Mobile/AboutMobile";
 import AboutDesctop from "./components/About/Desctop/AboutDesctop";
 import GiftSection from "./components/Gift/Gift";
+import KnowSection from "./components/KnowSection/KonwSection";
 
 // Регистрируем плагины GSAP
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
@@ -40,6 +41,7 @@ export default function App() {
         <SwiperSection />
         {isDesktop ? <AboutDesctop /> : <AboutMobile />}
         <GiftSection />
+        <KnowSection />
       </div>
     </div>
   );
