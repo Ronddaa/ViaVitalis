@@ -18,18 +18,53 @@ export default function AboutMobile() {
         loop
         muted
       ></video>
-      <p className={styles.aboutText}>{t("about.abouttext1")}</p>
-      <p className={styles.aboutText}>{t("about.abouttext1")}</p>
-      <div className={styles.wrapperImages}>
-        <img className={styles.aboutIMG} src={aboutIMG1} alt="about" width={313} height={313} />
-        <img className={styles.aboutIMG} src={aboutIMG2} alt="about" width={313} height={313} />
+      <div className="container">
+        <p className={styles.aboutText}>{t("about.abouttext1")}</p>
+        <p className={styles.aboutText}>{t("about.abouttext2")}</p>
+        <div className={styles.wrapperImages}>
+          <img
+            className={styles.aboutIMG}
+            src={aboutIMG1}
+            alt="about"
+            width={313}
+            height={313}
+          />
+          <img
+            className={styles.aboutIMG2}
+            src={aboutIMG2}
+            alt="about"
+            width={313}
+            height={313}
+          />
+        </div>
+        <p className={styles.aboutText}>{t("about.abouttext3")}</p>
+        <div className={styles.wrapperImages}>
+          <img
+            className={styles.aboutIMG}
+            src={aboutIMG3}
+            alt="about"
+            width={313}
+            height={313}
+          />
+          <img
+            className={styles.aboutIMG2}
+            src={aboutIMG4}
+            alt="about"
+            width={313}
+            height={313}
+          />
+        </div>
+        <p className={styles.aboutText}>{t("about.abouttext4")}</p>
       </div>
-      <p className={styles.aboutText}>{t("about.abouttext1")}</p>
-      <div className={styles.wrapperImages}>
-        <img className={styles.aboutIMG} src={aboutIMG3} alt="about" width={313} height={313} />
-        <img className={styles.aboutIMG} src={aboutIMG4} alt="about" width={313} height={313} />
-      </div>
-      <p className={styles.aboutText}>{t("about.abouttext1")}</p>
+      <ul className={styles.wrapperCircles}>
+        <li className={styles.aboutBrown}>
+          <p className={styles.textCircle}>{t("about.textCircle")}</p>
+        </li>
+        <li className={styles.aboutCircle}></li>
+          </ul>
+          <div className="container">
+              <button className={styles.aboutBtn}>{ t("about.btn")}</button>
+          </div>
     </section>
   );
 }
