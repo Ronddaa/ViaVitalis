@@ -10,8 +10,13 @@ import SwiperIMG3 from './SwiperIMG3.webp';
 import SwiperIMG4 from './SwiperIMG4.webp';
 import SwiperIMG5 from "./SwiperIMG5.webp";
 import useIsDesktop from '../../hooks/useIsDesctop';
+import Contact from "../Modals/Contact";
+import { useState } from "react";
+
 
 export default function SwiperSection() {
+
+  const [modalContactIsOpen, setmodalContact] = useState(false);
 
     const { t } = useTranslation()
     
@@ -53,7 +58,7 @@ export default function SwiperSection() {
                   {t("swiperSection.swiperPrice1")}
                 </p>
               </article>
-              <button className={styles.slidesBtn}>
+              <button className={styles.slidesBtn} onClick={()=> setmodalContact(true)}>
                 {t("swiperSection.btn")}
               </button>
             </SwiperSlide>
@@ -78,7 +83,7 @@ export default function SwiperSection() {
                   {t("swiperSection.swiperPrice2")}
                 </p>
               </article>
-              <button className={styles.slidesBtn}>
+              <button className={styles.slidesBtn} onClick={()=> setmodalContact(true)}>
                 {t("swiperSection.btn")}
               </button>
             </SwiperSlide>
@@ -103,7 +108,7 @@ export default function SwiperSection() {
                   {t("swiperSection.swiperPrice3")}
                 </p>
               </article>
-              <button className={styles.slidesBtn}>
+              <button className={styles.slidesBtn} onClick={()=> setmodalContact(true)}>
                 {t("swiperSection.btn")}
               </button>
             </SwiperSlide>
@@ -128,7 +133,7 @@ export default function SwiperSection() {
                   {t("swiperSection.swiperPrice4")}
                 </p>
               </article>
-              <button className={styles.slidesBtn}>
+              <button className={styles.slidesBtn} onClick={()=> setmodalContact(true)}>
                 {t("swiperSection.btn")}
               </button>
             </SwiperSlide>
@@ -153,11 +158,15 @@ export default function SwiperSection() {
                   {t("swiperSection.swiperPrice5")}
                 </p>
               </article>
-              <button className={styles.slidesBtn}>
+              <button className={styles.slidesBtn} onClick={()=> setmodalContact(true)}>
                 {t("swiperSection.btn")}
               </button>
             </SwiperSlide>
-          </Swiper>
+        </Swiper>
+        <Contact
+                            isOpen={modalContactIsOpen}
+                            onClose={() => setmodalContact(false)}
+                          />
       </section>
     );
 }

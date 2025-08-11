@@ -63,3 +63,8 @@
     font-weight: 500;
     font-family: 'Montserrat';
 }
+@media(min-width:768px){
+    .modalContentContact{
+        width: 60%;
+    }
+}

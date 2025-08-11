@@ -5,7 +5,11 @@ import aboutIMG2 from "../aboutIMG2.webp";
 import aboutIMG3 from "../aboutIMG3.webp";
 import aboutIMG4 from "../aboutIMG4.webp";
 
+import Contact from "../../Modals/Contact";
+import { useState } from "react";
+
 export default function AboutDesctop() {
+  const [modalContactIsOpen, setmodalContact] = useState(false);
     const {t} = useTranslation()
     return (
       <section className={styles.AboutDesctopSection}>
@@ -63,13 +67,22 @@ export default function AboutDesctop() {
         </ul>
         <ul className={styles.wrapperAboutList3}>
           <li>
-            <button className={styles.aboutBtn}>{t("about.btn")}</button>
+            <button
+              className={styles.aboutBtn}
+              onClick={() => setmodalContact(true)}
+            >
+              {t("about.btn")}
+            </button>
           </li>
           <li className={styles.circles}>
             <p className={styles.textAboutWhite}>{t("about.abouttext4")}</p>
             <p className={styles.textAboutBrown}>{t("about.textCircle")}</p>
           </li>
         </ul>
+        <Contact
+                isOpen={modalContactIsOpen}
+                onClose={() => setmodalContact(false)}
+              />
       </section>
     );
 }

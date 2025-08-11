@@ -5,8 +5,13 @@ import aboutIMG2 from '../aboutIMG2.webp'
 import aboutIMG3 from '../aboutIMG3.webp'
 import aboutIMG4 from "../aboutIMG4.webp";
 
+import Contact from "../../Modals/Contact";
+import { useState } from "react";
+
 export default function AboutMobile() {
   const { t } = useTranslation();
+  const [modalContactIsOpen, setmodalContact] = useState(false);
+  
   return (
     <section className={styles.AboutMobileSection}>
       <h2 className={styles.titleAbout}>{t("about.title")}</h2>
@@ -61,10 +66,19 @@ export default function AboutMobile() {
           <p className={styles.textCircle}>{t("about.textCircle")}</p>
         </li>
         <li className={styles.aboutCircle}></li>
-          </ul>
-          <div className="container">
-              <button className={styles.aboutBtn}>{ t("about.btn")}</button>
-          </div>
+      </ul>
+      <div className="container">
+        <button
+          className={styles.aboutBtn}
+          onClick={() => setmodalContact(true)}
+        >
+          {t("about.btn")}
+        </button>
+      </div>
+      <Contact
+        isOpen={modalContactIsOpen}
+        onClose={() => setmodalContact(false)}
+      />
     </section>
   );
 }

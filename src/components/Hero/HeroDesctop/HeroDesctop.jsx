@@ -5,6 +5,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import styles from "./HeroDesctop.module.css";
 import heroMainIMG from "../heroMainIMG.webp";
 import heroLavandaIMG from "../heroLavandaIMG.webp";
+import Contact from "../../Modals/Contact";
+import { useState } from "react";
 
 // Регистрируем плагин ScrollTrigger один раз
 gsap.registerPlugin(ScrollTrigger);
@@ -13,6 +15,7 @@ export default function HeroDesctop() {
   const { t } = useTranslation();
   const containerRef = useRef(null);
   const elementsToAnimate = useRef([]);
+   const [modalContactIsOpen, setmodalContact] = useState(false);
 
   useLayoutEffect(() => {
     // Получаем элементы, которые нужно анимировать
@@ -52,7 +55,7 @@ export default function HeroDesctop() {
         <h1 className={styles.mainTitle}>{t("hero.mainTitle")}</h1>
         <p className={styles.mainText}>{t("hero.mainText")}</p>
         <p className={styles.mainTextscnd}>{t("hero.mainTextscnd")}</p>
-        <button className={styles.heroBtn}>{t("hero.heroBtn")}</button>
+        <button className={styles.heroBtn} onClick={()=> setmodalContact(true)}>{t("hero.heroBtn")}</button>
         <div className={styles.heroJustCircke}></div>
       </div>
       <div className={styles.wrapperHeroIMG}>
@@ -102,6 +105,10 @@ export default function HeroDesctop() {
           </li>
         </ul>
       </div>
+      <Contact
+                    isOpen={modalContactIsOpen}
+                    onClose={() => setmodalContact(false)}
+                  />
     </section>
   );
 }

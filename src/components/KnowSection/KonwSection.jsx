@@ -2,8 +2,11 @@ import styles from './knowSection.module.css'
 import { useTranslation } from "react-i18next";
 import knowSVG1 from "./knowSVG1.png";
 import knowSVG2 from "./knowSVG2.png";
+import Contact from "../Modals/Contact";
+import { useState } from "react";
 
 export default function KnowSection() {
+  const [modalContactIsOpen, setmodalContact] = useState(false);
     const { t } = useTranslation();
     return (
       <section className={styles.knowSection}>
@@ -49,7 +52,11 @@ export default function KnowSection() {
           </ul>
         </div>
             <img className={styles.knowSVG2} src={knowSVG2} alt="" />
-            <button className={styles.knowBtn}>{ t("know.btn")}</button>
+        <button className={styles.knowBtn} onClick={()=> setmodalContact(true)}>{t("know.btn")}</button>
+        <Contact
+                  isOpen={modalContactIsOpen}
+                  onClose={() => setmodalContact(false)}
+                />
       </section>
     );
 }
