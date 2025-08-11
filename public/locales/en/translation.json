@@ -1,9 +1,124 @@
 {
-    "header": {
-      "navigation1": "Товары",
-      "navigation2": "О нас",
-      "navigation3": "Подарочные наборы",
-      "navigation4": "Полезное",
-      "navigation5": "Контакты"
-    }
+  "header": {
+    "navigation1": "Products",
+    "navigation2": "About Us",
+    "navigation3": "Gift Sets",
+    "navigation4": "Useful Info",
+    "navigation5": "Contacts"
+  },
+  "hero": {
+    "mainTitle": "Via Vitalis",
+    "mainText": "“Via Vitalis” – a private plantation of artisanal mastery in producing essential oils of the highest quality. As well as 100% natural textures and blends.",
+    "mainTextscnd": "Pure essential oils – open the way to emotional, physical, and spiritual well-being that can truly change your life!",
+    "heroBtn": "ORDER OIL",
+    "textInCircle": "The therapeutic properties of essential oils – help achieve various results and enhance the effect.",
+    "heroText1": "For centuries, essential oils have been used by healers and alchemists to make medicines, perfumes, blends, and textures.",
+    "heroText2": "The properties of essential oils were highly valued and used by Cleopatra, the Chinese Emperor, Paracelsus, the ancient Romans, Hippocrates, and other figures of the ancient world.",
+    "heroText3": "Today, essential oils are widely used by naturopaths, homeopaths, aromatherapy specialists, cosmetologists, and perfumers."
+  },
+  "swiperSection": {
+    "title": "Choose Your Product",
+    "startText": "OF THE HIGHEST QUALITY",
+    "naturalText": "100% NATURAL\n100% ADDITIVE-FREE",
+    "opt": "WHOLESALE & RETAIL",
+    "btn": "order",
+    "swiperTitle1": "Rosemary Hydrosol",
+    "swiperTitle2": "Rosemary Essential Oil (officinalis)",
+    "swiperTitle3": "Lavender Hydrosol",
+    "swiperTitle4": "Lavender Essential Oil (officinalis)",
+    "swiperTitle5": "Via Vitalis Massage Oil",
+    "swiperPrice1": "€6.00",
+    "swiperPrice2": "€26.00",
+    "swiperPrice3": "€6.00",
+    "swiperPrice4": "€24.00",
+    "swiperPrice5": "€33.00"
+  },
+  "about": {
+    "title": "About Us",
+    "abouttext1": "In sunny Italy, in the Tuscany region, among the hills of Casentino, at 500m above sea level – lies our Lavender and Rosemary plantation. From these plants, using steam distillation, we obtain essential oils of the highest quality! This is not industrial mass production, but artisanal work, caring for each individual plant.",
+    "abouttext2": "Our plantation is based on: craftsmanship, ancient knowledge of nature, plants, planetary energies – and their connection with the human body and influence upon it.",
+    "abouttext3": "The most important aspect of the high quality of our essential oils is that the plantation was planted and cultivated according to the natural cycle of the Moon and astrological calculations. Harvesting was carried out at precise hours of the full moon, when plants reach the “peak” of their therapeutic properties, influencing the interaction between the energies of nature and humans, product concentration, and its quality.",
+    "abouttext4": "When choosing a product, it is important to understand its origin and quality, on which the result depends. The varieties found in many pharmacies and shops – often come from low-quality oils, diluted with fillers or fragrances, or synthetically reproduced in laboratories.",
+    "textCircle": "This is done to lower the price. 100% natural essential oils of the highest quality – are expensive! The price depends on the harvest, weather conditions, harvesting, and other factors.",
+    "btn": "CONTACT US"
+  },
+  "gift": {
+    "title": "You can order gift sets from us:",
+    "btn": "ORDER",
+    "li1": "Lavender Essential Oil (officinalis)",
+    "li2": "Rosemary Essential Oil (officinalis)",
+    "li3": "Lavender Hydrosol",
+    "li4": "Rosemary Hydrosol",
+    "li5": "“Via Vitalis” Massage Oil",
+    "li6": "Lavender Sachet"
+  },
+  "know": {
+    "title": "Good to Know",
+    "block1": {
+      "title": "LAVENDER ESSENTIAL OIL (OFFICINALIS)",
+      "text": "There is much to say about Lavender, as its fame goes back to ancient civilizations and has deep roots in the ancient world.\n\nIt is said that Cleopatra seduced Julius Caesar and Mark Antony – thanks to the scent of Lavender. The plant’s name comes from the Latin “Lava” (to wash) – hence Lavender was used in baths for freshness and fragrance. It was also used for laundry and cleaning."
+    },
+    "block2": {
+      "title": "Therapeutic properties of Lavender:",
+      "text1": "normalizes cardiovascular function. Lowers blood pressure, relieves vascular spasms",
+      "text2": "normalizes nervous system function. Relieves tension, stress, irritability, anxiety, headaches",
+      "text3": "calms, relaxes, improves sleep (insomnia, sleepwalking), relieves signs of fatigue",
+      "text4": "has antiseptic, anti-inflammatory, analgesic properties",
+      "text5": "moisturizes and softens the skin",
+      "text6": "relieves menstrual pain"
+    },
+    "block3": {
+      "title": "ROSEMARY ESSENTIAL OIL (OFFICINALIS)",
+      "text": "Rosemary – an aromatic plant whose name comes from the Latin “ROS” (dew) and “Marinus” (sea) – translated as “Dew of the Sea.” It has a strong, pungent aroma and a spicy taste (with woody and camphor notes).\n\nIn the ancient world, it was considered a symbol of rebirth, a sacred plant – of eternal life. Our ancestors believed rosemary could ward off negativity and attract wealth. This essential oil was greatly valued even by Paracelsus. He claimed that rosemary essential oil could strengthen the entire body."
+    },
+    "block4": {
+      "title": "Therapeutic properties of Rosemary:",
+      "text1": "relieves nervous and mental tension",
+      "text2": "increases concentration, improves memory, helps retain and absorb information",
+      "text3": "awakens intuition, helps understand oneself and the surrounding world",
+      "text4": "restores skin elasticity, evens out skin tone, smooths wrinkles and folds, removes pigmentation spots, teenage breakouts",
+      "text5": "anti-inflammatory",
+      "text6": "stimulates hair regeneration and growth, eliminates dandruff, adds shine and strength",
+      "text7": "strengthens blood vessel walls (in varicose veins), hemorrhoids, cold hands and feet syndrome, cramps",
+      "text8": "helps clear mucus in colds (rubs)",
+      "text9": "improves digestive system function (for indigestion and discomfort)",
+      "text10": "stimulates the lymphatic system (for weight loss, cellulite, drainage)",
+      "text11": "reduces and relieves muscle and joint pain"
+    },
+    "btn": "CONTACT US"
+  },
+  "product": {
+    "title": "Therapeutic properties of “Via Vitalis” Massage Oil",
+    "listCircle": {
+      "li1": "Improves blood circulation",
+      "li2": "Significantly reduces inflammation",
+      "li3": "Relaxes muscles and reduces joint pain, relieves spasms",
+      "li4": "Has a positive effect on the nervous, cardiovascular, and lymphatic systems",
+      "li5": "Boosts vitality and gives a feeling of lightness",
+      "price": "€33.00"
+    },
+    "text1": "When applying “Via Vitalis” Massage Oil (with lavender and rosemary components), it spreads pleasantly and evenly over the body’s surface, penetrates tissues and the bloodstream, and has a therapeutic effect on the dermis, hypodermis, muscles, ligaments, joints, and internal organs. It also has a healing effect on the psycho-emotional state of mind and body.",
+    "text2": "Apply oil directly to the discomfort area for self-massage (face, neck, hands, feet, abdomen) or use for a full body massage.",
+    "btn": "ORDER PRODUCT"
+  },
+  "footer": {
+    "title": "Via Vitalis",
+    "contact": "Contacts",
+    "what": "For all inquiries\nwrite on WhatsApp",
+    "piva": "VAT: 02422910519"
+  },
+  "burger": {
+    "btn": "ORDER OIL",
+    "link1": "Products",
+    "link2": "About Us",
+    "link3": "Gift Sets",
+    "link4": "Useful Info",
+    "link5": "Contacts"
+  },
+  "modal": {
+    "title1": "for orders in Ukraine, write here:",
+    "title2": "for orders in Europe, write here:",
+    "title3": "important to know:",
+    "text": "Follow and do not exceed the dosage of essential oils during use. When ordering, specify what you will use it for. You will be provided with the necessary dosage!"
+  }
 }

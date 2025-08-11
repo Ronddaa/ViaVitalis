@@ -1,9 +1,124 @@
 {
-    "header": {
-      "navigation1": "Товары",
-      "navigation2": "О нас",
-      "navigation3": "Подарочные наборы",
-      "navigation4": "Полезное",
-      "navigation5": "Контакты"
-    }
+  "header": {
+    "navigation1": "Prodotti",
+    "navigation2": "Chi siamo",
+    "navigation3": "Cofanetti regalo",
+    "navigation4": "Utile",
+    "navigation5": "Contatti"
+  },
+  "hero": {
+    "mainTitle": "Via Vitalis",
+    "mainText": "“Via Vitalis” - piantagione privata di maestria artigianale nella produzione di oli essenziali di altissima qualità. Così come texture e miscele 100% naturali.",
+    "mainTextscnd": "Oli essenziali purissimi - aprono la strada al benessere emotivo, fisico e spirituale, che può davvero cambiare la vita!",
+    "heroBtn": "ORDINA OLIO",
+    "textInCircle": "Le proprietà terapeutiche degli oli essenziali – contribuiscono a ottenere diversi risultati e a potenziarne l’effetto.",
+    "heroText1": "Per secoli, gli oli essenziali sono stati utilizzati da guaritori e alchimisti per ottenere medicine, profumi, miscele e texture.",
+    "heroText2": "Le proprietà degli oli essenziali erano molto apprezzate e utilizzate anche da Cleopatra, dall’Imperatore Cinese, da Paracelso, dagli antichi Romani, da Ippocrate e da altri personaggi del mondo antico.",
+    "heroText3": "Oggi, gli oli essenziali sono ampiamente utilizzati da naturopati, omeopati, specialisti in aromaterapia, cosmetologia e profumeria."
+  },
+  "swiperSection": {
+    "title": "Scegli il tuo prodotto",
+    "startText": "DI ALTISSIMA QUALITÀ",
+    "naturalText": "100% NATURALE\n100% SENZA ADDITIVI",
+    "opt": "INGROSSO E DETTAGLIO",
+    "btn": "ordina",
+    "swiperTitle1": "Idrolato di Rosmarino",
+    "swiperTitle2": "Olio essenziale di Rosmarino (officinalis)",
+    "swiperTitle3": "Idrolato di Lavanda",
+    "swiperTitle4": "Olio essenziale di Lavanda (officinalis)",
+    "swiperTitle5": "Olio da massaggio Via Vitalis",
+    "swiperPrice1": "6,00 €",
+    "swiperPrice2": "26,00 €",
+    "swiperPrice3": "6,00 €",
+    "swiperPrice4": "24,00 €",
+    "swiperPrice5": "33,00 €"
+  },
+  "about": {
+    "title": "Chi siamo",
+    "abouttext1": "Nella soleggiata Italia, nella regione Toscana, tra le colline del Casentino, a 500m sul livello del mare – si trova la nostra piantagione di Lavanda e Rosmarino. Da queste piante, con il metodo della distillazione a vapore, otteniamo oli essenziali di altissima qualità! Non è una produzione industriale per quantità, ma un lavoro artigianale, curando ogni singola pianta.",
+    "abouttext2": "La nostra piantagione si basa su: maestria, antiche conoscenze della natura, delle piante, delle energie planetarie – e del loro legame con il corpo umano e della loro influenza su di esso.",
+    "abouttext3": "L’aspetto più importante dell’alta qualità dei nostri oli essenziali è che la piantagione è stata piantata e coltivata secondo il ciclo naturale della Luna e calcoli astrologici. La raccolta è stata effettuata in ore precise di luna piena, quando le piante raggiungono il “picco” delle proprietà terapeutiche, che influenzano l’interazione tra le energie della natura e dell’uomo, la concentrazione del prodotto e la sua qualità.",
+    "abouttext4": "Quando si sceglie un prodotto, è importante capire la sua origine e qualità, da cui dipende il risultato. Le varietà che si trovano in molte farmacie e negozi – spesso derivano da oli di bassa qualità, diluiti con riempitivi o aromi, oppure riprodotti sinteticamente in laboratorio.",
+    "textCircle": "Questo viene fatto per abbassare il prezzo. 100% Oli essenziali naturali di altissima qualità - costano cari! Il prezzo dipende dal raccolto, dalle condizioni climatiche, dalla raccolta e da altri fattori.",
+    "btn": "CONTATTACI"
+  },
+  "gift": {
+    "title": "Da noi puoi ordinare cofanetti regalo:",
+    "btn": "ORDINA",
+    "li1": "Olio essenziale di Lavanda (officinalis)",
+    "li2": "Olio essenziale di Rosmarino (officinalis)",
+    "li3": "Idrolato di Lavanda",
+    "li4": "Idrolato di Rosmarino",
+    "li5": "Olio da massaggio ”Via Vitalis”",
+    "li6": "Sacchetto di Lavanda"
+  },
+  "know": {
+    "title": "Utile da sapere",
+    "block1": {
+      "title": "OLIO ESSENZIALE DI LAVANDA (OFFICINALIS)",
+      "text": "Si può parlare a lungo della Lavanda, poiché la sua fama risale alle antiche civiltà e affonda le radici nel mondo antico.\n\nSi dice che Cleopatra abbia sedotto Giulio Cesare e Marco Antonio – grazie al profumo della Lavanda. Il nome della pianta deriva dal latino „Lava” (lavare) – per questo la Lavanda veniva usata nei bagni per freschezza e aroma. Veniva usata anche per il bucato e la pulizia."
+    },
+    "block2": {
+      "title": "Proprietà terapeutiche della Lavanda:",
+      "text1": "normalizza il funzionamento del sistema cardiovascolare. Abbassa la pressione, allevia gli spasmi vascolari",
+      "text2": "normalizza il funzionamento del sistema nervoso. Allevia tensione, stress, irritabilità, ansia, mal di testa",
+      "text3": "calma, rilassa, normalizza il sonno (insonnia, sonnambulismo), allevia i segni di stanchezza",
+      "text4": "possiede proprietà antisettiche, antinfiammatorie, analgesiche",
+      "text5": "idrata e ammorbidisce la pelle",
+      "text6": "allevia i dolori durante il ciclo mestruale"
+    },
+    "block3": {
+      "title": "OLIO ESSENZIALE DI ROSMARINO (OFFICINALIS)",
+      "text": "Il Rosmarino – pianta aromatica il cui nome deriva dal latino „ROS” (rugiada) e „Marinus” (mare) – in traduzione “Rugiada del mare”. Ha un odore forte e pungente, e un sapore speziato (con note legnose e canforate).\n\nNel mondo antico era considerato simbolo di rinascita, pianta sacra – della vita eterna. I nostri antenati credevano che il rosmarino allontanasse la negatività e attirasse la ricchezza. Questo olio essenziale era molto apprezzato persino da Paracelso. Egli affermava che l’olio essenziale di rosmarino fosse in grado di rafforzare tutto l’organismo."
+    },
+    "block4": {
+      "title": "Proprietà terapeutiche del Rosmarino:",
+      "text1": "allevia la tensione nervosa e mentale",
+      "text2": "aumenta la concentrazione, migliora la memoria, aiuta a ricordare e assimilare informazioni",
+      "text3": "risveglia l’intuizione, permette di conoscere se stessi e il mondo circostante",
+      "text4": "ripristina l’elasticità dell’epidermide, uniforma la pelle, leviga rughe e pieghe, elimina macchie pigmentarie, eruzioni adolescenziali",
+      "text5": "antinfiammatorio",
+      "text6": "stimola la rigenerazione e la crescita dei capelli, elimina la forfora, dona lucentezza e forza",
+      "text7": "rafforza le pareti dei vasi sanguigni (in caso di vene varicose), emorroidi, sindrome delle mani e piedi freddi, crampi",
+      "text8": "per eliminare il muco nelle malattie da raffreddamento (frizioni)",
+      "text9": "migliora il funzionamento del sistema digestivo (in caso di disturbi e indigestione)",
+      "text10": "stimola il sistema linfatico (in caso di dimagrimento, cellulite, drenaggio)",
+      "text11": "riduce e allevia i dolori muscolari e articolari"
+    },
+    "btn": "CONTATTACI"
+  },
+  "product": {
+    "title": "Proprietà terapeutiche dell’olio “Via Vitalis” – per massaggio",
+    "listCircle": {
+      "li1": "Migliora la circolazione sanguigna",
+      "li2": "Riduce significativamente i processi infiammatori",
+      "li3": "Rilassa i muscoli e riduce i dolori articolari, allevia gli spasmi",
+      "li4": "Ha un effetto positivo sul sistema nervoso, cardiovascolare e linfatico",
+      "li5": "Aumenta il tono vitale e dona leggerezza",
+      "price": "33,00 €"
+    },
+    "text1": "Applicando l’olio “Via Vitalis” – per massaggio (con componenti di lavanda e rosmarino), si distribuisce in modo piacevole e uniforme sulla superficie del corpo, penetra nei tessuti e nel flusso sanguigno, esercita un effetto terapeutico sulla derma, ipoderma, muscoli, legamenti, articolazioni, organi interni. È terapeutico per lo stato psico-emotivo di anima e corpo.",
+    "text2": "Applicare l’olio direttamente sulla zona di disagio per l’auto-massaggio (viso, collo, mani, piedi, addome), o utilizzare per il massaggio generale del corpo.",
+    "btn": "ORDINA PRODOTTO"
+  },
+  "footer": {
+    "title": "Via Vitalis",
+    "contact": "Contatti",
+    "what": "Per tutte le domande\nscrivi su WhatsApp",
+    "piva": "P.IVA: 02422910519"
+  },
+  "burger": {
+    "btn": "ORDINA OLIO",
+    "link1": "Prodotti",
+    "link2": "Chi siamo",
+    "link3": "Cofanetti regalo",
+    "link4": "Utile",
+    "link5": "Contatti"
+  },
+  "modal": {
+    "title1": "per ordini in Ucraina scrivere qui:",
+    "title2": "per ordini in Europa scrivere qui:",
+    "title3": "importante sapere:",
+    "text": "Rispettare e non superare la dose di oli essenziali durante l’uso. Al momento dell’ordine, specificare per cosa lo utilizzerete. Vi verrà fornito il dosaggio necessario!"
+  }
 }

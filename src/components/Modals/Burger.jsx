@@ -111,7 +111,7 @@ export default function Burger({ isOpen, onClose }) {
           </li>
         </ul>
         <ul className={styles.wrapperChoiseLang}>
-          {["ru", "ua", "en", "it"].map((lang) => (
+          {["ru", "ua", "en", "it", "es"].map((lang) => (
             <li
               key={lang}
               className={i18n.language === lang ? styles.activeLang : ""}

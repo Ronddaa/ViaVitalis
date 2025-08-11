@@ -25,7 +25,7 @@ export default function SwiperSection() {
     const slidesPerViewValue = isDesctop ? 3.2 : 1;
 
     return (
-      <section className={styles.SwiperSection}>
+      <section className={styles.SwiperSection} id='products'>
           <h2 className={styles.titleSwiperSection}>
             {t("swiperSection.title")}
           </h2>

@@ -9,7 +9,7 @@ export default function KnowSection() {
   const [modalContactIsOpen, setmodalContact] = useState(false);
     const { t } = useTranslation();
     return (
-      <section className={styles.knowSection}>
+      <section className={styles.knowSection} id='know'>
         <img className={styles.knowSVG1} src={knowSVG1} alt="" />
         <div className="container">
           <h2 className={styles.titleKnow}>{t("know.title")}</h2>

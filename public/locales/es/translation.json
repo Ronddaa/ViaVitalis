@@ -1,0 +1,124 @@
+{
+  "header": {
+    "navigation1": "Productos",
+    "navigation2": "Sobre nosotros",
+    "navigation3": "Sets de regalo",
+    "navigation4": "Información útil",
+    "navigation5": "Contactos"
+  },
+  "hero": {
+    "mainTitle": "Via Vitalis",
+    "mainText": "“Via Vitalis” - plantación privada de artesanía dedicada a la elaboración de aceites esenciales de la más alta calidad, así como texturas y mezclas 100% naturales.",
+    "mainTextscnd": "Los aceites esenciales más puros abren el camino hacia el bienestar emocional, físico y espiritual que realmente puede cambiar tu vida.",
+    "heroBtn": "PEDIR ACEITE",
+    "textInCircle": "Las propiedades terapéuticas de los aceites esenciales ayudan a lograr diversos resultados y potenciar el efecto.",
+    "heroText1": "Durante siglos, los aceites esenciales fueron utilizados por curanderos y alquimistas para obtener medicinas, aromas, mezclas y texturas.",
+    "heroText2": "Las propiedades de los aceites esenciales también fueron altamente valoradas y utilizadas por Cleopatra, el Emperador Chino, Paracelso, los antiguos romanos, Hipócrates y otras figuras del mundo antiguo.",
+    "heroText3": "Hoy en día, los aceites esenciales son ampliamente utilizados por naturópatas, homeópatas, especialistas en aromaterapia, cosmología y perfumería."
+  },
+  "swiperSection": {
+    "title": "Elige tu producto",
+    "startText": "DE LA MÁS ALTA CALIDAD",
+    "naturalText": "100% NATURAL\n100% SIN ADITIVOS",
+    "opt": "MAYORISTA Y MINORISTA",
+    "btn": "pedir",
+    "swiperTitle1": "Hidrolato de Romero",
+    "swiperTitle2": "Aceite esencial de Romero (officinalis)",
+    "swiperTitle3": "Hidrolato de Lavanda",
+    "swiperTitle4": "Aceite esencial de Lavanda (officinalis)",
+    "swiperTitle5": "Aceite de masaje Via Vitalis",
+    "swiperPrice1": "6,00 €",
+    "swiperPrice2": "26,00 €",
+    "swiperPrice3": "6,00 €",
+    "swiperPrice4": "24,00 €",
+    "swiperPrice5": "33,00 €"
+  },
+  "about": {
+    "title": "Sobre nosotros",
+    "abouttext1": "En el soleado país de Italia, en la región de Toscana, en las colinas de Casentino a 500 metros sobre el nivel del mar, se encuentra nuestra plantación de lavanda y romero. Mediante destilación al vapor obtenemos aceites esenciales de la más alta calidad. No es una producción industrial para cantidad, sino un trabajo artesanal cuidando cada planta.",
+    "abouttext2": "Nuestra plantación se basa en el arte, los conocimientos ancestrales sobre la naturaleza, las plantas y las energías planetarias, así como su conexión con el organismo humano y su influencia en él.",
+    "abouttext3": "El aspecto más importante de la alta calidad de nuestros aceites esenciales es que la plantación fue sembrada y cultivada siguiendo el ciclo natural de la luna y cálculos astrológicos. La cosecha se realizó en determinadas horas de luna llena, cuando las plantas alcanzan el “pico” de sus propiedades terapéuticas, lo que influye en la interacción de las energías de la naturaleza y del ser humano, así como en la concentración y calidad del producto.",
+    "abouttext4": "Al elegir un producto, es importante comprender su origen y calidad, ya que de ello depende el resultado. Las variedades que se encuentran en muchas farmacias o tiendas suelen provenir de aceites de baja calidad, diluidos con rellenos o aromatizantes, o bien producidos sintéticamente en laboratorios.",
+    "textCircle": "Esto se hace para reducir el precio. ¡Los aceites esenciales 100% naturales de alta calidad son costosos! El precio depende de la cosecha, las condiciones climáticas, la recolección y otros factores.",
+    "btn": "CONTACTAR CON NOSOTROS"
+  },
+  "gift": {
+    "title": "Puedes pedir sets de regalo:",
+    "btn": "PEDIR",
+    "li1": "Aceite esencial de Lavanda (officinalis)",
+    "li2": "Aceite esencial de Romero (officinalis)",
+    "li3": "Hidrolato de Lavanda",
+    "li4": "Hidrolato de Romero",
+    "li5": "Aceite de masaje “Via Vitalis”",
+    "li6": "Bolsita de Lavanda"
+  },
+  "know": {
+    "title": "Es útil saber",
+    "block1": {
+      "title": "ACEITE ESENCIAL DE LAVANDA (OFFICINALIS)",
+      "text": "De la lavanda se puede hablar mucho, ya que su fama se remonta a las civilizaciones antiguas y se adentra profundamente en el mundo clásico.\n\nSe dice que Cleopatra sedujo a Julio César y Marco Antonio con el aroma de la lavanda. El nombre de la planta proviene del latín “Lava” (lavar), por lo que se utilizaba en los baños para aportar frescura y aroma. También se usaba en el lavado y la limpieza."
+    },
+    "block2": {
+      "title": "Propiedades terapéuticas de la lavanda:",
+      "text1": "normaliza el funcionamiento del sistema cardiovascular, reduce la presión arterial y alivia los espasmos de los vasos sanguíneos",
+      "text2": "normaliza el funcionamiento del sistema nervioso, alivia la tensión, el estrés, la irritabilidad, la ansiedad y el dolor de cabeza",
+      "text3": "relaja, calma, normaliza el sueño (insomnio, sonambulismo), reduce la fatiga",
+      "text4": "posee propiedades antisépticas, antiinflamatorias y analgésicas",
+      "text5": "hidrata y suaviza la piel",
+      "text6": "alivia el dolor durante el ciclo menstrual"
+    },
+    "block3": {
+      "title": "ACEITE ESENCIAL DE ROMERO (OFFICINALIS)",
+      "text": "El romero, planta aromática cuyo nombre proviene de las palabras latinas “Ros” (rocío) y “Marinus” (mar), significa “rocío del mar”. Tiene un olor fuerte y penetrante, y un sabor especiado con notas amaderadas y alcanforadas.\n\nEn el mundo antiguo se consideraba símbolo de renacimiento y planta sagrada de vida eterna. Nuestros antepasados creían que el romero ahuyentaba lo negativo y atraía la riqueza. Este aceite esencial fue muy valorado por Paracelso, quien afirmaba que el aceite de romero podía fortalecer todo el organismo."
+    },
+    "block4": {
+      "title": "Propiedades terapéuticas del romero:",
+      "text1": "alivia la tensión nerviosa y mental",
+      "text2": "mejora la concentración, la memoria y la capacidad de retener y asimilar información",
+      "text3": "despierta la intuición, permite conocerse a uno mismo y al mundo que nos rodea",
+      "text4": "restaura la elasticidad de la epidermis, mejora la textura de la piel, suaviza arrugas y pliegues, elimina manchas, erupciones en la adolescencia",
+      "text5": "antiinflamatorio",
+      "text6": "estimula la regeneración y el crecimiento del cabello, elimina la caspa, aporta brillo y fuerza",
+      "text7": "fortalece las paredes de los vasos sanguíneos (en varices), hemorroides, síndrome de manos y pies fríos, calambres",
+      "text8": "ayuda a expulsar la mucosidad en resfriados (friegas)",
+      "text9": "mejora el funcionamiento del sistema digestivo (en trastornos e indigestión)",
+      "text10": "estimula el sistema linfático (en pérdida de peso, celulitis, drenaje)",
+      "text11": "reduce y alivia el dolor muscular y articular"
+    },
+    "btn": "CONTACTAR CON NOSOTROS"
+  },
+  "product": {
+    "title": "Propiedades terapéuticas del aceite “Via Vitalis” para masajes",
+    "listCircle": {
+      "li1": "Mejora la circulación sanguínea",
+      "li2": "Reduce significativamente los procesos inflamatorios",
+      "li3": "Relaja los músculos y reduce el dolor en las articulaciones, alivia los espasmos",
+      "li4": "Beneficia al sistema nervioso, cardiovascular y linfático",
+      "li5": "Aumenta el tono vital y aporta ligereza",
+      "price": "33,00 €"
+    },
+    "text1": "Al aplicar el aceite “Via Vitalis” para masajes (con componentes de lavanda y romero), se distribuye suave y agradablemente por la superficie del cuerpo, penetra en los tejidos y el torrente sanguíneo, ejerciendo un efecto terapéutico sobre la dermis, la hipodermis, los músculos, ligamentos, articulaciones y órganos internos. También tiene un efecto terapéutico en el estado psicoemocional del cuerpo y del alma.",
+    "text2": "Aplicar el aceite directamente sobre la zona con malestar durante el automasaje (cara, cuello, manos, pies, abdomen) o utilizarlo para masajes corporales generales.",
+    "btn": "PEDIR PRODUCTO"
+  },
+  "footer": {
+    "title": "Via Vitalis",
+    "contact": "Contactos",
+    "what": "Para cualquier consulta\nescribe por WhatsApp",
+    "piva": "P.IVA: 02422910519"
+  },
+  "burger": {
+    "btn": "PEDIR ACEITE",
+    "link1": "Productos",
+    "link2": "Sobre nosotros",
+    "link3": "Sets de regalo",
+    "link4": "Información útil",
+    "link5": "Contactos"
+  },
+  "modal": {
+    "title1": "para pedidos en Ucrania escribir aquí:",
+    "title2": "para pedidos en Europa escribir aquí:",
+    "title3": "importante saber:",
+    "text": "Respetar y no exceder la dosis de aceites esenciales en su uso. Al hacer el pedido, indique para qué lo va a utilizar. ¡Le proporcionaremos la dosis necesaria!"
+  }
+}

@@ -8,7 +8,7 @@ export default function GiftSection() {
   const [modalContactIsOpen, setmodalContact] = useState(false);
     const {t} = useTranslation()
     return (
-      <section className={styles.GiftSection}>
+      <section className={styles.GiftSection} id='gift'>
         <div className="container">
           <h2 className={styles.titlegift}>{t("gift.title")}</h2>
           <img src={giftIMG} alt="giftBox" className={styles.giftIMG} />

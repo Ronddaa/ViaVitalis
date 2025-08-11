@@ -5,12 +5,14 @@ import translationRU from "../../public/locales/ru/translation.json";
 import translationUA from "../../public/locales/ua/translation.json";
 import translationEN from "../../public/locales/en/translation.json";
 import translationIT from "../../public/locales/it/translation.json";
+import translationES from "../../public/locales/es/translation.json";
 
 const resources = {
   ru: { common: translationRU },
   ua: { common: translationUA },
   en: { common: translationEN },
-  it: { common: translationIT }, 
+  it: { common: translationIT },
+  es: { common: translationES },
 };
 
 i18n.use(initReactI18next).init({

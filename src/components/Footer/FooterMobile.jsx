@@ -6,7 +6,7 @@ import lavandaIMG from './footerLavanda.webp'
 export default function FooterMobile() {
   const { t } = useTranslation();
   return (
-    <footer className={styles.footer}>
+    <footer className={styles.footer} id="footer">
       <div className="container">
         <h2 className={styles.titleFooter}>{t("footer.title")}</h2>
         <a href="#">

@@ -6,7 +6,7 @@ import lavandaIMG from "./footerLavanda.webp";
 export default function FooterDesctop() {
     const {t} = useTranslation()
     return (
-        <footer className={styles.FooterDesctop}>
+        <footer className={styles.FooterDesctop} id='footer'>
             <div className="container">
                 <h2 className={styles.title}>{ t("footer.title")}</h2>
             </div>

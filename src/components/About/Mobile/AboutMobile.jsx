@@ -13,7 +13,7 @@ export default function AboutMobile() {
   const [modalContactIsOpen, setmodalContact] = useState(false);
   
   return (
-    <section className={styles.AboutMobileSection}>
+    <section className={styles.AboutMobileSection} id="about">
       <h2 className={styles.titleAbout}>{t("about.title")}</h2>
       <video
         className={styles.video}

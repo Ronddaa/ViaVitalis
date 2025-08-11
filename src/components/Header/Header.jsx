@@ -24,27 +24,27 @@ export default function Header() {
         </a>
         <ul className={`${styles.wrapperNavigationList} hideElementForMobile`}>
           <li>
-            <a className={styles.headerNavLink} href="#">
+            <a className={styles.headerNavLink} href="#products">
               {t("header.navigation1")}
             </a>
           </li>
           <li>
-            <a className={styles.headerNavLink} href="#">
+            <a className={styles.headerNavLink} href="#about">
               {t("header.navigation2")}
             </a>
           </li>
           <li>
-            <a className={styles.headerNavLink} href="#">
+            <a className={styles.headerNavLink} href="#gift">
               {t("header.navigation3")}
             </a>
           </li>
           <li>
-            <a className={styles.headerNavLink} href="#">
+            <a className={styles.headerNavLink} href="#know">
               {t("header.navigation4")}
             </a>
           </li>
           <li>
-            <a className={styles.headerNavLink} href="#">
+            <a className={styles.headerNavLink} href="#footer">
               {t("header.navigation5")}
             </a>
           </li>
@@ -90,6 +90,7 @@ export default function Header() {
           <option value="en">EN</option>
           <option value="ua">UA</option>
           <option value="it">IT</option>
+          <option value="es">ES</option>
         </select>
         <button
           className={styles.burgerBtn}

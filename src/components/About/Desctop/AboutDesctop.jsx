@@ -12,7 +12,7 @@ export default function AboutDesctop() {
   const [modalContactIsOpen, setmodalContact] = useState(false);
     const {t} = useTranslation()
     return (
-      <section className={styles.AboutDesctopSection}>
+      <section className={styles.AboutDesctopSection} id='about'>
         <h2 className={styles.titleAbout}>{t("about.title")}</h2>
         <video
           className={styles.video}
