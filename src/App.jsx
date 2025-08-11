@@ -14,6 +14,7 @@ import GiftSection from "./components/Gift/Gift";
 import KnowSection from "./components/KnowSection/KonwSection";
 import Product from "./components/Product/Product";
 import FooterMobile from "./components/Footer/FooterMobile";
+import FooterDesctop from "./components/Footer/FooteDesctop";
 
 // Регистрируем плагины GSAP
 gsap.registerPlugin(useGSAP, ScrollSmoother, ScrollTrigger);
@@ -45,7 +46,7 @@ export default function App() {
         <GiftSection />
         <KnowSection />
         <Product />
-        <FooterMobile />
+        {isDesktop ? <FooterDesctop /> : <FooterMobile />}
       </div>
     </div>
   );

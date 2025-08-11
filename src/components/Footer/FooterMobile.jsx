@@ -33,6 +33,7 @@ export default function FooterMobile() {
             </svg>
             { t("footer.what")}
           </p>
+          <p className={styles.piva}>{ t("footer.piva")}</p>
         </li>
       </ul>
     </footer>

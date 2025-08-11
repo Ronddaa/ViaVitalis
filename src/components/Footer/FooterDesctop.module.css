@@ -1,0 +1,58 @@
+.FooterDesctop{
+    padding: 100px 0;
+    background-color: #888164;
+}
+.title{
+    font-size: 12vw;
+    color: #FCF8ED;
+    margin-bottom: 80px;
+}
+.articleFooter{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    fill: #FCF8ED;
+}
+.wrapperCircles{
+    display: flex;
+}
+.wrapperIMG{
+    width: 525px;
+    height: 525px;
+    position: relative;
+    left: 80px;
+}
+.wrapperContacts{
+    width: 525px;
+    height: 525px;
+    background-color: #FCF8ED;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px 100px;
+    position: relative;
+    right: 80px;
+}
+.contanct{
+    font-size: 56px;
+    color: #353334;
+    margin-bottom: 50px;
+}
+.number, .mail{
+    color: #353334;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.whattext{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.piva{
+    font-size: 22px;
+    color: #888164;
+}
