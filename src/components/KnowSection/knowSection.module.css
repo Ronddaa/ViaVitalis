@@ -1,0 +1,82 @@
+.knowSection{
+    background-color: #888164;
+}
+.titleKnow{
+    color: #FCF8ED;
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.wrapperKnowList{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titleList{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    max-width: 220px;
+    color: #353334;
+    margin-bottom: 10px;
+}
+.textKnow{
+    color: #FCF8ED;
+    font-size: 16px;
+}
+.wrapperBlockList{
+    list-style: disc;
+    margin-left: 20px;
+}
+.knowSVG1{
+    position: absolute;
+    content: '';
+    opacity: 0.2;
+    width: 390px;
+    height: 921px;
+    object-fit: cover;
+}
+.knowSVG2{
+    position: absolute;
+    content: '';
+    opacity: 0.2;
+    width: 390px;
+    height: 921px;
+    object-fit: cover;
+    bottom: 0;
+}
+
+@media(min-width:768px){
+    .titleKnow{
+        font-size: 5.5vw;
+    }
+    .wrapperKnowList{
+        display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 310px;
+grid-row-gap: 0px;
+    }
+    .titleList{
+        font-size: 1.4vw;
+        max-width: 100%;
+    }
+    .knowSVG1{
+        width: 650px;
+        height: 828px;
+        object-fit: contain;
+        opacity: 0.5;
+        left: 45%;
+        top: 0%;
+        transform: translate(-50%, 0);
+    }
+    .knowSVG2{
+        width: 55%;
+        height: 728px;
+        object-fit: contain;
+        opacity: 0.5;
+        left: 45%;
+        bottom: -5%;
+        transform: translate(-50%, 0);
+    }
+}
