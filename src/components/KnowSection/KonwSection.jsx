@@ -48,7 +48,8 @@ export default function KnowSection() {
             </li>
           </ul>
         </div>
-        <img className={styles.knowSVG2} src={knowSVG2} alt="" />
+            <img className={styles.knowSVG2} src={knowSVG2} alt="" />
+            <button className={styles.knowBtn}>{ t("know.btn")}</button>
       </section>
     );
 }

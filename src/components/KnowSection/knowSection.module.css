@@ -1,5 +1,7 @@
 .knowSection{
     background-color: #888164;
+    overflow: visible;
+    z-index: 0;
 }
 .titleKnow{
     color: #FCF8ED;
@@ -35,6 +37,7 @@
     width: 390px;
     height: 921px;
     object-fit: cover;
+    z-index: 0;
 }
 .knowSVG2{
     position: absolute;
@@ -44,6 +47,15 @@
     height: 921px;
     object-fit: cover;
     bottom: 0;
+    z-index: 0;
+}
+.knowBtn{
+    position: absolute;
+    bottom: -28px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 4;
+    width: 222px;
 }
 
 @media(min-width:768px){
@@ -71,12 +83,15 @@ grid-row-gap: 0px;
         transform: translate(-50%, 0);
     }
     .knowSVG2{
-        width: 55%;
+        width: 34%;
         height: 728px;
         object-fit: contain;
         opacity: 0.5;
         left: 45%;
         bottom: -5%;
         transform: translate(-50%, 0);
+    }
+    .knowBtn{
+        width: 351px;
     }
 }
