@@ -51,7 +51,7 @@ export default function Header() {
         </ul>
         <ul className={styles.wrapperSocialLinkHeader}>
           <li className="hideElementForMobile">
-            <a href="#">
+            <a href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt">
               <svg className={styles.sociallinkSVG} width={20} height={20}>
                 <use xlinkHref={`${sprite}#icon-instheader`}></use>
               </svg>
@@ -91,7 +91,10 @@ export default function Header() {
           <option value="ua">UA</option>
           <option value="it">IT</option>
         </select>
-        <button className={styles.burgerBtn} onClick={() => setmodalBurgerMenu(true)}>
+        <button
+          className={styles.burgerBtn}
+          onClick={() => setmodalBurgerMenu(true)}
+        >
           <svg className={styles.burgerMenu} width={20} height={20}>
             <use xlinkHref={`${sprite}#icon-burger`}></use>
           </svg>

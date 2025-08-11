@@ -2,8 +2,11 @@ import styles from "./HeroMobile.module.css";
 import { useTranslation } from "react-i18next";
 import heroMainIMG from "../heroMainIMG.webp";
 import heroLavandaIMG from '../heroLavandaIMG.webp'
+import Contact from "../../Modals/Contact";
+import { useState } from "react";
 
 export default function HeroMobile() {
+  const [modalContactIsOpen, setmodalContact] = useState(false);
   const { t } = useTranslation();
 
   return (
@@ -12,7 +15,7 @@ export default function HeroMobile() {
         <h1 className={styles.mainTitle}>{t("hero.mainTitle")}</h1>
         <p className={styles.mainText}>{t("hero.mainText")}</p>
         <p className={styles.mainTextscnd}>{t("hero.mainTextscnd")}</p>
-        <button className={styles.heroBtn}>{t("hero.heroBtn")}</button>
+        <button className={styles.heroBtn} onClick={() => setmodalContact(true)}>{t("hero.heroBtn")}</button>
       </div>
       <div className={styles.wrapperIMGhero}>
         <img
@@ -40,6 +43,10 @@ export default function HeroMobile() {
           {t("hero.heroText3")}
         </p>
       </div>
+      <Contact
+              isOpen={modalContactIsOpen}
+              onClose={() => setmodalContact(false)}
+            />
     </section>
   );
 }

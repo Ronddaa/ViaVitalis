@@ -2,9 +2,24 @@ import styles from "./Burger.module.css";
 import Modal from "react-modal";
 import sprite from "../icons.svg";
 import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 export default function Burger({ isOpen, onClose }) {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const changeLang = (lang) => {
+    i18n.changeLanguage(lang);
+    localStorage.setItem("lang", lang);
+  };
+
+  // При открытии приложения читаем сохранённый язык
+  useEffect(() => {
+    const savedLang = localStorage.getItem("lang");
+    if (savedLang && savedLang !== i18n.language) {
+      i18n.changeLanguage(savedLang);
+    }
+  }, [i18n]);
+
   return (
     <Modal
       isOpen={isOpen}
@@ -59,12 +74,18 @@ export default function Burger({ isOpen, onClose }) {
         </nav>
         <ul className={styles.wrapperSocial}>
           <li>
-            <a className={styles.linkSocial} href="#">
+            <a
+              className={styles.linkSocial}
+              href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt"
+            >
               <svg className={styles.sociallinkSVG} width={20} height={20}>
                 <use xlinkHref={`${sprite}#icon-instheader`}></use>
               </svg>
             </a>
-            <a href="#" className={styles.nameSocial}>
+            <a
+              href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt"
+              className={styles.nameSocial}
+            >
               Instagram
             </a>
           </li>
@@ -90,10 +111,15 @@ export default function Burger({ isOpen, onClose }) {
           </li>
         </ul>
         <ul className={styles.wrapperChoiseLang}>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          {["ru", "ua", "en", "it"].map((lang) => (
+            <li
+              key={lang}
+              className={i18n.language === lang ? styles.activeLang : ""}
+              onClick={() => changeLang(lang)}
+            >
+              {lang.toUpperCase()}
+            </li>
+          ))}
         </ul>
       </div>
     </Modal>
