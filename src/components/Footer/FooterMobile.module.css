@@ -1,0 +1,58 @@
+.footer{
+    background-color: #888164;
+    padding: 60px 0;
+}
+.titleFooter{
+    font-size: 76px;
+    color: #FCF8ED;
+    text-align: center;
+}
+.logo{
+    fill: #FCF8ED;
+}
+.wrapperCircles{
+    display: flex;
+}
+.wrapperIMG{
+    position: relative;
+    width: 313px;
+    height: 313px;
+    left: -85px;
+}
+.lavandaIMG{
+    width: 313px;
+    height: 313px;
+    position: relative;
+    object-fit: cover;
+}
+.wrapperContacts{
+    position: relative;
+    width: 313px;
+    height: 313px;
+    background-color: #FCF8ED;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    right: -45px;
+    padding: 0 50px;
+}
+.contanct{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #353334;
+}
+.number, .mail{
+    color: #353334;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.whattext{
+    display: flex;
+    align-items: center;
+    margin: 10px 0 20px;
+}
+.whatSVG{
+
+}
