@@ -1,0 +1,89 @@
+.modalBurgerMenu{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #888164;
+  overflow: hidden;
+  z-index: 300;
+  transition: 0.4s;
+  border: none;
+}
+.modalContentBurgerMenu{
+    width: 100%;
+    height: 100%;
+    background-color: #888164;
+    
+    border: none;
+}
+.wrapperBurgerHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    background-color: #353334;
+    margin-bottom: 50px;
+}
+.logo{
+    fill: #888164;
+}
+.wrapperClose{
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF8ED;
+}
+.burgerBtn{
+    display: block;
+    margin: 0 auto 50px;
+    width: 100%;
+}
+.wrapperBurgerNav{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+.burgerLink{
+    color: #FCF8ED;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.wrapperSocial{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.wrapperSocial li{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.linkSocial{
+    width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF8ED;
+    border-radius: 50%;
+}
+.sociallinkSVG{
+    fill: #353334;
+}
+.nameSocial{
+    color: #353334;
+    font-size: 14px;
+    width: 117px;
+    height: 47px;
+    background-color: #FCF8ED;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

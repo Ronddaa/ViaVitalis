@@ -1,6 +1,7 @@
 .footer{
     background-color: #888164;
     padding: 60px 0;
+    overflow: hidden;
 }
 .titleFooter{
     font-size: 76px;
@@ -26,7 +27,6 @@
     object-fit: cover;
 }
 .wrapperContacts{
-    position: relative;
     width: 313px;
     height: 313px;
     background-color: #FCF8ED;
@@ -35,7 +35,7 @@
     justify-content: center;
     flex-direction: column;
     position: absolute;
-    right: -45px;
+    right: 0px;
     padding: 0 50px;
 }
 .contanct{

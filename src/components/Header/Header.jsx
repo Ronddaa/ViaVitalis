@@ -1,10 +1,13 @@
 import styles from "./Header.module.css";
 import sprite from "../icons.svg";
 import { useTranslation } from "react-i18next";
+import Burger from "../Modals/Burger";
+import { useState } from "react";
 
 export default function Header() {
   const { t, i18n } = useTranslation();
-
+  const [modalBurgerMenuIsOpen, setmodalBurgerMenu] = useState(false);
+  
   const changeLang = (e) => {
     const selectedLanguage = e.target.value;
     i18n.changeLanguage(selectedLanguage);
@@ -88,12 +91,16 @@ export default function Header() {
           <option value="ua">UA</option>
           <option value="it">IT</option>
         </select>
-        <button className={styles.burgerBtn}>
+        <button className={styles.burgerBtn} onClick={() => setmodalBurgerMenu(true)}>
           <svg className={styles.burgerMenu} width={20} height={20}>
             <use xlinkHref={`${sprite}#icon-burger`}></use>
           </svg>
         </button>
       </div>
+      <Burger
+        isOpen={modalBurgerMenuIsOpen}
+        onClose={() => setmodalBurgerMenu(false)}
+      />
     </header>
   );
 }
