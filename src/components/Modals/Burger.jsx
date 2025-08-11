@@ -76,14 +76,14 @@ export default function Burger({ isOpen, onClose }) {
           <li>
             <a
               className={styles.linkSocial}
-              href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt"
+              href="https://www.instagram.com/via_vitalis/"
             >
               <svg className={styles.sociallinkSVG} width={20} height={20}>
                 <use xlinkHref={`${sprite}#icon-instheader`}></use>
               </svg>
             </a>
             <a
-              href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt"
+              href="https://www.instagram.com/via_vitalis/"
               className={styles.nameSocial}
             >
               Instagram

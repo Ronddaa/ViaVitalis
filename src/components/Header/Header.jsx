@@ -2,12 +2,28 @@ import styles from "./Header.module.css";
 import sprite from "../icons.svg";
 import { useTranslation } from "react-i18next";
 import Burger from "../Modals/Burger";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const { t, i18n } = useTranslation();
   const [modalBurgerMenuIsOpen, setmodalBurgerMenu] = useState(false);
-  
+  const [showHeader, setShowHeader] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > lastScrollY && window.scrollY > 50) {
+        setShowHeader(false); // скролл вниз
+      } else {
+        setShowHeader(true); // скролл вверх
+      }
+      setLastScrollY(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
+
   const changeLang = (e) => {
     const selectedLanguage = e.target.value;
     i18n.changeLanguage(selectedLanguage);
@@ -15,7 +31,9 @@ export default function Header() {
   };
 
   return (
-    <header className={styles.header}>
+    <header
+      className={`${styles.header} ${showHeader ? styles.show : styles.hide}`}
+    >
       <div className="container">
         <a href="#">
           <svg className={styles.logo} width={107} height={103}>
@@ -49,9 +67,21 @@ export default function Header() {
             </a>
           </li>
         </ul>
+        <select
+          className={styles.languageSelector}
+          id="language-select"
+          value={i18n.language}
+          onChange={changeLang}
+        >
+          <option value="ru">RU</option>
+          <option value="en">EN</option>
+          <option value="ua">UA</option>
+          <option value="it">IT</option>
+          <option value="es">ES</option>
+        </select>
         <ul className={styles.wrapperSocialLinkHeader}>
           <li className="hideElementForMobile">
-            <a href="https://www.instagram.com/p/DMIaj0UI32l/?igsh=dm1waTVkejczYWFt">
+            <a href="https://www.instagram.com/via_vitalis/">
               <svg className={styles.sociallinkSVG} width={20} height={20}>
                 <use xlinkHref={`${sprite}#icon-instheader`}></use>
               </svg>
@@ -80,18 +110,6 @@ export default function Header() {
             </a>
           </li>
         </ul>
-        <select
-          className={`${styles.languageSelector} hideElementForMobile`}
-          id="language-select"
-          value={i18n.language}
-          onChange={changeLang}
-        >
-          <option value="ru">RU</option>
-          <option value="en">EN</option>
-          <option value="ua">UA</option>
-          <option value="it">IT</option>
-          <option value="es">ES</option>
-        </select>
         <button
           className={styles.burgerBtn}
           onClick={() => setmodalBurgerMenu(true)}
