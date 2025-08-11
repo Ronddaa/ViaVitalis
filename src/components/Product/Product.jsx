@@ -1,10 +1,44 @@
-import styles from './Product.module.css'
+import styles from "./Product.module.css";
+import { useTranslation } from "react-i18next";
+import productIMG from "./productIMG.webp";
+
 export default function Product() {
-    return (
-        <section className={styles.ProductSection}>
-            <div className="container">
-                
-            </div>
-        </section>
-    )
+  const { t } = useTranslation();
+  return (
+    <section className={styles.ProductSection}>
+      <div className="container">
+        <p className={styles.title}>{t("product.title")}</p>
+      </div>
+      <ul className={styles.wrapperCirckles}>
+        <li className={styles.wrapperIMG}>
+          <img className={styles.productIMG} src={productIMG} alt="product" />
+        </li>
+        <li className={styles.brownCircle}>
+          <ul className={styles.brownList}>
+            <li className={styles.productText}>
+              {t("product.listCircle.li1")}
+            </li>
+            <li className={styles.productText}>
+              {t("product.listCircle.li2")}
+            </li>
+            <li className={styles.productText}>
+              {t("product.listCircle.li3")}
+            </li>
+            <li className={styles.productText}>
+              {t("product.listCircle.li4")}
+            </li>
+            <li className={styles.productText}>
+              {t("product.listCircle.li5")}
+            </li>
+          </ul>
+          <p className={styles.price}>{t("product.listCircle.price")}</p>
+        </li>
+      </ul>
+      <div className="container">
+        <p className={styles.productTextBottom}>{t("product.text1")}</p>
+        <p className={styles.productTextBottom2}>{t("product.text2")}</p>
+        <button className={styles.productBtn}>{t("product.btn")}</button>
+      </div>
+    </section>
+  );
 }
